@@ -47,7 +47,7 @@ with st.form("single"):
     year = st.number_input("year", value=2020)
     km_driven = st.number_input("km_driven", value=0)
     mileage = st.number_input("mileage", value=0.0)
-    engine = st.number_input("engine", value=0.0)
+    engine = st.number_input("engine", value=0)
     max_power = st.number_input("max_power", value=0.0)
     seats = st.number_input("seats", value=5)
     submitted = st.form_submit_button("Предсказать")
